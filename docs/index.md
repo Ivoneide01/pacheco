@@ -25,7 +25,7 @@
 
 # Autores
 
-* Aluno 1
+  Ivoneide Pereira da silva
 * Aluno 2
 * Aluno 3
 * Aluno 4
