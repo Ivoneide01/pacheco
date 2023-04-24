@@ -26,7 +26,7 @@
 # Autores
 
   Ivoneide Pereira da silva
-* Aluno 2
+  Jeane Lira Dias 
 * Aluno 3
 * Aluno 4
 * Aluno 5
