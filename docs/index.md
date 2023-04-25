@@ -27,7 +27,7 @@
 
   Ivoneide Pereira da silva
   Jeane Lira Dias 
-* Aluno 3
+* Carlos Augusto Massayuki Tahira Takasaki
 * Aluno 4
 * Aluno 5
 * Aluno 6
