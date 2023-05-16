@@ -1,0 +1,275 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+
+}
+
+.topo{
+    height: 30px; /* altura*/
+    background-color: #000000;   /* cor do topo*/
+}
+.topoDois{
+    width: 100%;   /* largura*/
+    max-width: 1040px;  /* a largura maxima desse vai ser 1040*/
+    height: 30px;
+    margin: auto;  /*  para ficar mo meio do primeiro topo*/
+} 
+.topoleft{
+    width: 50%;
+    height: 30px;
+    float:left ; /* esta alinhando a esquerda*/
+}
+.toporigth{
+    width: 50%;
+    height: 28px;
+    float:right ; 
+    text-align: right;
+    margin-top: 2px;
+
+
+}
+
+.topoleft ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;  /* removendo style de lista*/
+}
+.topoleft li {
+    float: left; /* colocar o home/ quem somos do lado do outro*/
+    height: 30px;
+    line-height: 30px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.topoleft li a {
+    text-decoration: none;
+    color: white;
+
+}
+.topoleft li .ativo {
+    color: rgb(255, 51, 0); /* style navegação topo */
+}
+.toporigth img{
+    border: 0;
+    width: 26px;
+    height: 26px;
+
+}
+.toporigth image{
+    border: 0;
+    width: 26px;
+    height: 26px;
+
+
+}
+
+.toporigth text{
+    border: 0;
+    width: 26px;
+    height: 26px;
+}
+.topobusca{
+    width: 110px;
+    height: 20px;
+    outline: 0;
+
+}
+
+.toporigth a {
+    float: right;
+}
+.toporigth input {
+    float: right;
+}
+.toporigth img  {
+    margin-right: 3px; /* daando espaço para os icones*/
+}
+
+.topo2{
+    height: 100px; /* altura*/   /* cor do topo*/
+    color: #000000;
+}
+.topoDoisint{
+    width: 100%;   /* largura*/
+    max-width: 1040px;  /* a largura maxima desse vai ser 1040*/
+    height: 95px;
+    margin: auto;  /*  */
+    background-color: white
+} 
+.logo{
+    width: 230px;    /* responsivo para o celular */
+    height: 95px;
+    float: left;
+}
+.topo2 .baner{  /* topo chamado publicidade*/
+    width: 650px;    /* responsivo para o celular */
+    height: 85px;
+    float: right;
+    margin-top: 5px;
+    background-color: red;
+    
+    
+
+}.topo2 .logo img{
+    border: 0;
+    width: 100px;
+}
+.topoDoisint .nome{
+    padding-left: 8px;
+    padding-right: 8px;
+
+}
+.topoDoisint p {
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 300%;
+    color: white;
+
+}
+.menu{
+    height: 40px;
+    background-color: red;
+
+}
+.menuint{
+    width: 100%;
+    max-width: 1040px;
+    height: 40px;
+    margin: auto;
+    background-color:red;
+
+}
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu li {
+    line-height: 40px;  /* altura da linha */
+    float: left;  /* um do lado do outro*/
+    padding-left: 8px;
+    padding-right: 8px;
+    height: 40px;
+}
+.menu a {
+    color: aliceblue;
+    text-decoration: none;  /* para retirar o stylo de ul */
+}
+.menu li:hover .submenu {  /* quando passar o mouser ele abre */
+    display: block;
+
+}
+.submenu{
+    width: 150px;
+    background-color:rgb(218, 12, 12);
+    position: absolute;
+    display: none; 
+}
+.menu img {
+    border: 0;
+    width: 13%;
+}
+.submenuItem{
+    width: 150PX;
+    line-height: 30PX;
+    padding-left: 10px;
+    height: 30px;
+}
+.submenuItem:hover{
+    background-color:rgb(6, 6, 8);
+}
+.ultimasnoticias{
+    height: 40px;
+    background-color:white;
+    
+}
+.ultimasnoticiasint{
+    width: 100%;
+    max-width: 1040px;
+    margin:auto;
+    height: 40px;
+    background-color:white;
+}
+.ultimasnoticiasarea{
+    height: 28px;
+    border: 1px solid #CCC;
+    margin-top: 10px;
+    background-color:#f3efef;
+}
+.ultimasnoticiastitulo{
+    background-color:rgb(6, 6, 8);
+    color: #FFF;
+    height: 28PX;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+    line-height: 28px;
+}
+.ultimasnoticiastituloDois{
+    color: pink;
+    height: 28px;
+    line-height: 28px;
+    display: inline-block;
+    padding-left: 10px;
+    color: #000000;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.containerint{
+    width: 100%;
+    max-width: 1040px;
+    margin:auto;
+
+}
+.leftside{
+    width: 753px;
+    background-color:#050203;
+    float: left;
+    min-height: 200px;
+    
+}
+.rightside{
+    width: 275px;
+    min-height: 200px;
+    float: right;
+    background-color:rgb(247, 244, 245);
+    margin-left: 12px; 
+}
+.widget{
+    background-color: #cec9c6;
+    margin-bottom: 10px; /* espaçamento entre os quadrados  */
+}       
+.widget_titulo{
+    height: 30px;
+    line-height: 30px;
+    padding-left: 5px;
+    font-size: 14px; /* tamanha do letra */
+    border-bottom: 1px solid #CCC; /* espaçamento entre o titulo e o quadrado */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.widget_conteudo{
+    text-align: center;/* alinhar as redes sociais ao meio */
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.widget .widget_titulo img{
+    border: 0;
+    width: 275px;
+}
+.img_conteudo{
+    width: 250px;
+    height: 200px;
+}
+.noticioa_item{
+    font-size: 14px;
+    margin: 0px 10px;
+    text-align: left;
+    padding: 10px 0px;
+    border-bottom: 1px solid #CCC;
+}
+.noticioa_item a {
+    text-decoration: none;
+    color: #000;  /*  deixar os links sem formatação  */
+}
