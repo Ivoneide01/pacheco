@@ -279,8 +279,9 @@ body{
 }
 .slideshowarea{
     height: 335px;
-    background-color: #DDD;
+    background-color: #e72d2d;
     width: 100000px;
+    transition: all 1s;
     
 }
 .slide{
@@ -296,16 +297,36 @@ body{
     height: 70px; /*  imagem repetida para o titulo */
     background-size: auto 70px; 
     margin-top: 265px;
+    background-image:url('/assets/img/ban.jpg')
+    
     
 }
 .slideinfo_titulo{
     font-size: 20px;
-    color: wheat;
+    color: rgb(6, 6, 6);
     padding-left: 20px;
     padding-top: 15px;
 }
 .slideinfo_subtitulo{
     font-size: 13px;
-    color: darkblue;
+    color: rgb(239, 41, 41);
     padding-left: 20px;
+}
+.bolinhasslide{
+    position: absolute;
+    width: 200px;
+    height: 20px;
+}
+.bolinha{
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-right: 5px;
+    cursor: pointer;
+    background-color: #CCC;
+    border-radius: 10px;
+}
+.topoDoisint img{
+   padding-top: 5px;
+
 }
