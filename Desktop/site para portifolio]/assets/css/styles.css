@@ -225,9 +225,8 @@ body{
 }
 .leftside{
     width: 753px;
-    background-color:#050203;
     float: left;
-    min-height: 200px;
+  
     
 }
 .rightside{
@@ -272,4 +271,41 @@ body{
 .noticioa_item a {
     text-decoration: none;
     color: #000;  /*  deixar os links sem formatação  */
+}
+.slideshow{
+    height: 335px;
+    background-color: #CCC;
+    overflow: hidden; /* scroll se passar da area vai ser feito uma mudança, overflow: hidden;  qualquer coisa que saia da area vai ser cortada */
+}
+.slideshowarea{
+    height: 335px;
+    background-color: #DDD;
+    width: 100000px;
+    
+}
+.slide{
+    height: 355px;
+    width: 753px;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.slideinfo{
+    height: 70px; /*  imagem repetida para o titulo */
+    background-size: auto 70px; 
+    margin-top: 265px;
+    
+}
+.slideinfo_titulo{
+    font-size: 20px;
+    color: wheat;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.slideinfo_subtitulo{
+    font-size: 13px;
+    color: darkblue;
+    padding-left: 20px;
 }
