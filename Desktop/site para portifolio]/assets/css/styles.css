@@ -48,7 +48,7 @@ body{
 
 }
 .topoleft li .ativo {
-    color: rgb(255, 51, 0); /* style navegação topo */
+    color: rgb(255, 255, 0); /* style navegação topo */
 }
 .toporigth img{
     border: 0;
@@ -329,3 +329,39 @@ body{
    padding-top: 5px;
 
 }
+.whatsapp-ico:hover {
+    box-shadow: 0px 5px 50px 0px #d96fa7 inset, 0px 5px 50px 0px #d96fa7, 0px 5px 50px 0px #d96fa7 inset, 0px 5px 50px 0px #d96fa7;
+}
+/*WHATSAPP*/
+
+.whatsapp-ico {
+    fill: white;
+    width: 70px;
+    height: 70px;
+    padding: 3px;
+    background: linear-gradient(90deg, #4bd415, #126607);
+    border-radius: 50%;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+    /* box-shadow: 2px 2px 11px rgba(0,0,0,0.7); */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10;
+}
+
+.whatsapp-ico:hover {
+    box-shadow: 0px 5px 50px 0px #17f117 inset, 0px 5px 50px 0px #f6f4f5, 0px 5px 50px 0px #040303 inset, 0px 5px 50px 0px #4ad712;
+}
+
+.orcamento{
+    display: flex; /* coloca as imagens uma ao lado da outra */
+    float: left;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px 10px;
+}
+
+.wp-block-column a {
+    color: black
+}
+
+
