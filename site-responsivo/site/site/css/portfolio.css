@@ -15,6 +15,8 @@
     max-width: 1120px;
     margin-left: auto;
     margin-right: auto;
+    background: url('/pacheco/site-responsivo/site/site/img/papeldeparedeteste.jpeg');
+    
 }
 
 #portfolio h2 {
@@ -24,10 +26,10 @@
 }
 
 #portfolio .titulo-portfolio {
-    background: url('../img/bg1.svg');
+
     background-repeat: no-repeat;
     background-position: center;
-    padding: 75px;
+    padding: 16px;
 }
 
 .img-container {

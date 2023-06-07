@@ -20,7 +20,7 @@
 }
 
 #servicos .titulo-servicos {
-    background: url('../img/bg1.svg');
+
     background-repeat: no-repeat;
     background-position: center;
     padding: 10px;
@@ -30,6 +30,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 50px;
+    background: url('/pacheco/site-responsivo/site/site/img/papeldeparedeteste.jpeg');
 }
 
 #servicos h3,

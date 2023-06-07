@@ -21,15 +21,16 @@
 }
 
 #contato .titulo-contato {
-    background: url('../img/bg1.svg');
+
     background-repeat: no-repeat;
     background-position: center;
-    padding: 75px;
+    padding: 16px;
 }
 
 #contato .box-contact {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    background: url('/pacheco/site-responsivo/site/site/img/papeldeparedeteste.jpeg');
 }
 
 #contato .info-contact {

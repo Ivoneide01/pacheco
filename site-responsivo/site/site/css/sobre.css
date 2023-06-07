@@ -4,6 +4,10 @@
 #sobre {
     grid-area: sobre;
     width: 100%;
+
+    background-repeat: no-repeat;
+    
+
 }
 
 #sobre .container {
@@ -13,16 +17,17 @@
     max-width: 1120px;
     margin-right: auto;
     margin-left: auto;
+
 }
 
 #sobre h2 {
     text-align: center;
-    color: #f2f7ff;
-    font-size: 40px;
+    color: rgb(249, 243, 243);
+    font-size: 50px;
 }
 
 #sobre .titulo-sobre {
-    background: url('../img/bg1.svg');
+   
     background-repeat: no-repeat;
     background-position: center;
     padding-top: 0%;
@@ -32,6 +37,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 2px;
+    
 }
 
 #sobre .img-sobre {
@@ -48,6 +54,7 @@
     display: flex;
     align-items: flex-end;
     flex-direction: column;
+    
 }
 
 #sobre p{
