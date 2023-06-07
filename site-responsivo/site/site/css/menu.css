@@ -54,8 +54,8 @@ header ul li a::after {
     height: 1px;
     bottom: -4px;
     left: 0;
-    background: -webkit-animation-duration (linear, right top, left top, from(#ba0e7e), to(#09090A));
-    background: linear-gradient(270deg, #d96fa7 0%, #63054b 100%);
+    background: -webkit-animation-duration (linear, right top, left top, from(#fbf9fa), to(#09090A));
+    background: linear-gradient(270deg, #f8f7f7 0%, #040404 100%);
     -webkit-transform-origin: bottom right;
             transform-origin: bottom right;
     -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.86, 0, 0.07, 1);
@@ -86,8 +86,8 @@ header ul li.active a::after {
     height: 1px;
     bottom: -4px;
     left: 0;
-    background: -webkit-animation-duration(linear, right top, left top, from(#ba0e7e), to(#f2f7ff));
-    background: linear-gradient(270deg, #d96fa7 0%, #f2f7ff 100%);
+    background: -webkit-animation-duration(linear, right top, left top, from(#000000), to(#f2f7ff));
+    background: linear-gradient(270deg, #0b0b0b 0%, #f2f7ff 100%);
     -webkit-transform-origin: bottom right;
             transform-origin: bottom right;
     -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.86, 0, 0.07, 1);
@@ -228,7 +228,7 @@ header ul li.active a::after {
         border: none;
         background: none;
         cursor: pointer;
-        color: #d96fa7;
+        color: #fafafa;
         gap: 0.5rem;
         margin-top: 18px;
         z-index: 2;
@@ -243,7 +243,7 @@ header ul li.active a::after {
         display: block;
         width: 20px;
         height: 2px;
-        background: #d96fa7;
+        background: #ffffff;
         margin-top: 5px;
         transition: 0.3s;
         position: relative;
@@ -253,11 +253,11 @@ header ul li.active a::after {
     }
     #nav.active #hamburger::before {
         transform: rotate(135deg);
-        color: #d96fa7;
+        color: #f4f4f4;
     }
     #nav.active #hamburger::after {
         transform: rotate(-135deg);
-        color: #d96fa7;
+        color: #050505;
         top: -7px;
     }
     .toggle img {

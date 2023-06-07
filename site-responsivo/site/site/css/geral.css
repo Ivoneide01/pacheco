@@ -28,12 +28,12 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: linear-gradient(transparent, #d96fa7);
+    background: linear-gradient(transparent, #fbfafb);
     border-radius: 6px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: linear-gradient(transparent, #d96fa7);
+    background-color: linear-gradient(transparent, #fafafa);
     border-radius: 6px;
 }
 
@@ -65,7 +65,7 @@ main {
     width: 70px;
     height: 70px;
     padding: 3px;
-    background: linear-gradient(90deg, #d96fa7, #d96fa7);
+    background: linear-gradient(90deg, #07af1a, #2db508);
     border-radius: 50%;
     box-shadow: 2px 2px 6px rgb(2, 2, 10);
     /* box-shadow: 2px 2px 11px rgba(0,0,0,0.7); */
@@ -76,7 +76,7 @@ main {
 }
 
 .whatsapp-ico:hover {
-    box-shadow: 0px 5px 50px 0px #d96fa7 inset, 0px 5px 50px 0px #d96fa7, 0px 5px 50px 0px #d96fa7 inset, 0px 5px 50px 0px #d96fa7;
+    box-shadow: 0px 5px 50px 0px #2df700 inset, 0px 5px 50px 0px #067f12, 0px 5px 50px 0px #f2eff1 inset, 0px 5px 50px 0px #19ce01;
 }
 
 .face {

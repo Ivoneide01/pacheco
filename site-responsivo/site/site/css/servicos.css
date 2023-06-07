@@ -81,12 +81,12 @@ p {
 
 #servicos .box-servicos .box:hover {
     transform: translateY(-50px);
-    background: linear-gradient(90deg, #8129CF, #5429CF);
+    background: linear-gradient(90deg, #f8f8f9, black);
 }
 
 .sec.dark #servicos .box-servicos .box:hover {
     transform: translateY(-50px);
-    background: linear-gradient(90deg, #8129CF, #5429CF);
+    background: linear-gradient(90deg, #fbfbfb, black);
 }
 
 .sec.dark #servicos .box-servicos .box {
