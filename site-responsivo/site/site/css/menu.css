@@ -10,7 +10,7 @@ header {
     z-index: 5;
     display: flex;
     justify-content: space-around;
-    background: url('/pacheco/site-responsivo/site/site/img/papeldeparedeteste.jpeg');
+    background: url("/img/papel/papeldeparedeteste.jpeg");
 }
 
 .sec.dark header {

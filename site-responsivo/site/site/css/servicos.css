@@ -30,7 +30,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 50px;
-    background: url('/pacheco/site-responsivo/site/site/img/papeldeparedeteste.jpeg');
+    background: url('/img/papel/papeldeparedeteste.jpeg');
 }
 
 #servicos h3,

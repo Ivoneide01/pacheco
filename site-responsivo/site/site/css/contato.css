@@ -30,7 +30,7 @@
 #contato .box-contact {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background: url('/pacheco/site-responsivo/site/site/img/papeldeparedeteste.jpeg');
+    background: url("/img/papel/papeldeparedeteste.jpeg");
 }
 
 #contato .info-contact {
