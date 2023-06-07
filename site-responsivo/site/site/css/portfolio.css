@@ -59,7 +59,7 @@
 
 .img-container:hover .boxImg {
     opacity: 1;
-    background: #d96fa7;
+    background: black;
 }
 
 .zoom-text {

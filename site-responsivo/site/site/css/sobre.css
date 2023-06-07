@@ -65,7 +65,7 @@
 #sobre a {
     text-align: center;
     text-decoration: none;
-    background: linear-gradient(30deg, #d96fa7, #e03a9e);
+    background: linear-gradient(30deg, #f4eef1, #010101);
     padding: 8px 30px;
     border-radius: 30px;
     width: 100%;
@@ -73,7 +73,7 @@
     margin-top: 20px;
 }
 #sobre a:hover {
-    box-shadow: 0px 5px 50px 0px #e03a9e inset, 0px 5px 50px 0px #e03a9e, 0px 5px 50px 0px #e03a9e inset, 0px 5px 50px 0px #e03a9e;
+    box-shadow: 0px 5px 50px 0px #feed04 inset, 0px 5px 50px 0px  #fed404, 0px 5px 50px 0px #f8c702 inset, 0px 5px 50px 0px #ffffff;
 }
 
 .sec.dark #sobre p {
