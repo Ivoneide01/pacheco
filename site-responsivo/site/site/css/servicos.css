@@ -11,6 +11,7 @@
     width: 100%;
     max-width: 1120px;
     margin: 0 auto;
+    
 }
 
 #servicos h2 {
@@ -31,6 +32,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 50px;
     background: url('/img/papel/papeldeparedeteste.jpeg');
+    
 }
 
 #servicos h3,
