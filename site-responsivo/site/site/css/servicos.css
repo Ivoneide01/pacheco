@@ -162,7 +162,7 @@ p {
 #servicos .box-servicos .box .content p {
     margin: 0;
     padding: 0;
-    text-align: center;
+    
 }
 
 @media (max-width: 600px) {
