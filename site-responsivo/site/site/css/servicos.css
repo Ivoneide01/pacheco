@@ -56,6 +56,10 @@ p {
     height: 500px;
     border-radius: 15px;
     padding: 50px;
+    width: 300px; /* largura desejada */
+    height: 400px; /* altura desejada */
+    border: 2px solid black; /* largura, estilo e cor da borda */
+    border-radius: 100px; /* raio de curvatura para a borda */
 }
 
 .sec.dark .post {
