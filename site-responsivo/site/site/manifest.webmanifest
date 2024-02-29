@@ -1,5 +1,5 @@
 {
-    "short_name": "Ivoneide Pereira - Portifólio da NID",
+    "short_name": "Pacheco Reformas",
     "name": "aboutiv2",
     "start_url": ".",
     "display": "standalone",
@@ -7,10 +7,10 @@
     "theme-color": "#5429CF",
     "background_color": "#09090A",
     "background-color": "#09090A",
-    "description": "Meu nome é Ivoneide Silva, sou desenvolvedora front end, seja bem vindo ao Portifólio da NID! São Paulo- SP",
+    "description": "Somos a Pacheco, uma empresa comprometida em transformar ambientes e vidas por meio de cores vibrantes e serviços de alta qualidade. Oferecemos soluções de pintura e reforma para residências e locais de trabalho em São Paulo, SP. Entre em contato conosco para dar vida ao seu espaço",
     "icons": [
       {
-        "src": "img/logo.png",
+        "src": "img/logo.jpeg",
         "type": "img/png",
         "sizes": "2560x2560"
       }
