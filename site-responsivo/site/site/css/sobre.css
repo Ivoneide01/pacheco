@@ -22,8 +22,7 @@
 
 #sobre h2 {
     text-align: center;
-    color: rgb(249, 243, 243);
-    font-size: 50px;
+    font-size: 100px;
 }
 
 #sobre .titulo-sobre {
@@ -64,10 +63,8 @@
 }
 #sobre a {
     text-align: center;
-    text-decoration: none;
-    background: linear-gradient(30deg, #f4eef1, #010101);
     padding: 8px 30px;
-    border-radius: 30px;
+    border-radius: 100px;
     width: 100%;
     max-width: 250px;
     margin-top: 20px;
@@ -102,4 +99,8 @@
         padding: 0 20px;
     }
     
+}
+
+.imgNome{
+    margin-top: 50px;
 }
