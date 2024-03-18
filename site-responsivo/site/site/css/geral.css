@@ -9,6 +9,7 @@ body {
     font-family: "Poppins", sans-serif;
     overflow-x: hidden;
     overflow-y: auto;
+    background-color: black;
 }
 
 @media (max-width: 360px) {
