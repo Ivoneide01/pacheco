@@ -1,6 +1,6 @@
 # pacheco.7 
 
-Este site foi desenvolvido com html, css e javascript
+Este site foi desenvolvido com html e css, ainda esta sendo implementado o javascript
 
 # Oque foi adiconado neste site: 
 - a logo foi adicionado a preferencia do cliente
