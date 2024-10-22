@@ -124,6 +124,7 @@
                     <li><a href="#servicos">Serviços</a></li>
                     <li><a href="#portfolio">Fotos</a></li>
                     <li><a href="#contato">Contato</a></li>
+                    <li><a href="#orcamento">Orçamento</a></li>
                 </ul>
             </nav>
         </div>
@@ -392,6 +393,14 @@ Com nossa experiência e compromisso com a qualidade, estamos prontos para trans
                 <div class="box-contact">
                     <div class="info-contact">
                         <h3>Informações para contato</h3>
+                        <p>Deixe uma breve descrição sobre o tipo de orçamento que você precisa. Por exemplo: pintura ou reforma de prédio, casa, escola, sala comercial, ou outro tipo de imóvel.</p>
+                        <form id="orcamento">
+                            <label for="name">Mensagem</label><br>
+                            <input type="text" name="name" id="name" placeholder="Escreva uma breve mensagem sobre o seu projeto" required/><br><br>
+                            <button type="submit" class="w3-btn w3-red w3-margin-top w3-round">Solicitar Orçamento</button>
+                          </form>
+            
+                          <div id="message">As informações foram enviadas com sucesso!</div><br/>
                         <h4 style="font-size: 25px">Jaimilton Oliveira Santos</h4>
                         <address>
                             <div class="email">
@@ -423,6 +432,7 @@ Com nossa experiência e compromisso com a qualidade, estamos prontos para trans
                 </div>
             </div>
         </section>
+        
    
     <a href="https://api.whatsapp.com/send?phone=+5511974348205&text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20%20%20%20 
     " 
@@ -468,6 +478,36 @@ Com nossa experiência e compromisso com a qualidade, estamos prontos para trans
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K8SKFM55"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
+
+</script>
+<!-- Scripts -->
+<script type="module" src="firebase-config.js"></script>
+<script type="module">
+  import { enviarDadosFormulario } from './firebase-config.js';
+
+  // Adicionar evento de envio ao formulário
+  const formContato = document.getElementById('formularioContato');
+
+  formContato.addEventListener('submit', (e) => {
+    e.preventDefault();
+
+    const nome = formContato['name'].value;
+
+    // Enviar os dados para o Firebase Realtime Database
+    enviarDadosFormulario(nome, email)
+      .then(() => {
+        console.log('Dados do formulário de contato enviados com sucesso!');
+        // Aqui você pode adicionar qualquer ação que deseja realizar após o envio bem-sucedido dos dados
+      })
+      .catch((error) => {
+        console.error('Erro ao enviar dados do formulário de contato:', error);
+      });
+
+    // Limpar o formulário após o envio
+    formContato.reset();
+  });
+</script>
+<script type="module" src="./Dhavin/Dhavin/botaoReceberInformacoes.js"></script>
 </body>
 
 </html>
