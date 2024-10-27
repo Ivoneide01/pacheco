@@ -7,14 +7,13 @@ import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.1/firebas
  // Your web app's Firebase configuration
   // For Firebase JS SDK v7.20.0 and later, measurementId is optional
   const firebaseConfig = {
-    apiKey: "AIzaSyAaXaQYKDPuW_Ml6WrnDrCx12mVydBm-wU",
-    authDomain: "dhavin-new.firebaseapp.com",
-    databaseURL: "https://dhavin-new-default-rtdb.firebaseio.com",
-    projectId: "dhavin-new",
-    storageBucket: "dhavin-new.appspot.com",
-    messagingSenderId: "1048204239667",
-    appId: "1:1048204239667:web:438f8e90edb1f613e51446",
-    measurementId: "G-52Y0REFPRT"
+    apiKey: "AIzaSyDgXqWqvpWHBgudWNpM0HOONsx8LcQB-NI",
+    authDomain: "pacheco7-b02a9.firebaseapp.com",
+    projectId: "pacheco7-b02a9",
+    storageBucket: "pacheco7-b02a9.appspot.com",
+    messagingSenderId: "598150952481",
+    appId: "1:598150952481:web:19072c24caa66f87d59560",
+    measurementId: "G-4S16Z6NBND"
   };
 
 // Inicializar o aplicativo Firebase
@@ -25,10 +24,9 @@ const analytics = getAnalytics(app);
 const db = getDatabase(app);
 
 // Função para enviar dados do formulário para o Firebase
-export function enviarDadosFormulario(name, email) {
+export function enviarDadosFormulario(name) {
   const contatosRef = ref(db, 'contatos'); // Referência à coleção 'contatos'
   return push(contatosRef, {
-    nome: name,
-    email: email
+    nome: name
   });
 }

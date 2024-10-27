@@ -394,13 +394,15 @@ Com nossa experiência e compromisso com a qualidade, estamos prontos para trans
                     <div class="info-contact">
                         <h3>Informações para contato</h3>
                         <p>Deixe uma breve descrição sobre o tipo de orçamento que você precisa. Por exemplo: pintura ou reforma de prédio, casa, escola, sala comercial, ou outro tipo de imóvel.</p>
-                        <form id="orcamento">
+                        <form id="formularioContato">
                             <label for="name">Mensagem</label><br>
                             <input type="text" name="name" id="name" placeholder="Escreva uma breve mensagem sobre o seu projeto" required/><br><br>
                             <button type="submit" class="w3-btn w3-red w3-margin-top w3-round">Solicitar Orçamento</button>
                           </form>
             
-                          <div id="message">As informações foram enviadas com sucesso!</div><br/>
+                          <div id="message" style="display: none; color: green;">
+                            Enviado, aguarde, entraremos em contato em breve!
+                        </div>
                         <h4 style="font-size: 25px">Jaimilton Oliveira Santos</h4>
                         <address>
                             <div class="email">
@@ -486,28 +488,59 @@ Com nossa experiência e compromisso com a qualidade, estamos prontos para trans
   import { enviarDadosFormulario } from './firebase-config.js';
 
   // Adicionar evento de envio ao formulário
-  const formContato = document.getElementById('formularioContato');
+// Adicionar evento de envio ao formulário
+const formContato = document.getElementById('formularioContato');
 
-  formContato.addEventListener('submit', (e) => {
+formContato.addEventListener('submit', async (e) => {
     e.preventDefault();
 
     const nome = formContato['name'].value;
 
-    // Enviar os dados para o Firebase Realtime Database
-    enviarDadosFormulario(nome, email)
-      .then(() => {
+    try {
+        // Enviar os dados para o Firebase Realtime Database
+        await enviarDadosFormulario(nome);
         console.log('Dados do formulário de contato enviados com sucesso!');
-        // Aqui você pode adicionar qualquer ação que deseja realizar após o envio bem-sucedido dos dados
-      })
-      .catch((error) => {
+        
+        // Aqui você pode adicionar a lógica para mostrar a mensagem de sucesso
+        const messageDiv = document.getElementById("message");
+        messageDiv.style.display = "block"; // Exibir mensagem de sucesso
+    } catch (error) {
         console.error('Erro ao enviar dados do formulário de contato:', error);
-      });
+        alert("Erro ao enviar o formulário. Tente novamente.");
+    }
 
     // Limpar o formulário após o envio
     formContato.reset();
-  });
+});
+
+</script>
+
+<script>
+    // Adicionar o event listener para o formulário
+document.addEventListener("DOMContentLoaded", () => {
+    const form = document.getElementById("orcamento");
+    const messageDiv = document.getElementById("message");
+    messageDiv.style.display = "none"; // Ocultar a mensagem inicialmente
+
+    form.addEventListener("submit", async (e) => {
+        e.preventDefault();
+        const name = form.name.value;
+
+        try {
+            await enviarDadosFormulario(name);
+            messageDiv.style.display = "block"; // Exibir mensagem de sucesso
+            form.reset();
+        } catch (error) {
+            console.error("Erro ao enviar dados: ", error);
+            alert("Erro ao enviar o formulário. Tente novamente.");
+        }
+    });
+});
+
 </script>
 <script type="module" src="./Dhavin/Dhavin/botaoReceberInformacoes.js"></script>
+<script type="module" src="ConfirmacaoEnvio.js"></script>
+
 </body>
 
 </html>
