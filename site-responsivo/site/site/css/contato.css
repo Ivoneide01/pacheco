@@ -201,3 +201,41 @@ address {
         
     }
     }
+    /* CSS para reduzir o tamanho do formulário */
+@media (max-width: 300px) {
+    #formularioContato{
+        max-width: 300px; /* Limita a largura total do formulário */
+        margin: 0 auto; /* Centraliza o formulário */
+        }
+        #formularioContato input[type="text"] {
+            width: 100%; /* Faz o campo ocupar a largura do formulário */
+            padding: 8px; /* Diminui o padding para economizar espaço */
+            font-size: 14px; /* Diminui o tamanho da fonte */
+        }
+        
+        #formularioContato button {
+            width: 100%; /* Faz o botão ocupar a largura do formulário */
+            padding: 8px; /* Diminui o padding */
+            font-size: 14px; /* Reduz o tamanho da fonte do botão */
+            margin-top: 10px; /* Ajusta o espaçamento superior do botão */
+        }
+        }
+@media (max-width: 570px) {
+    #formularioContato{
+        max-width: 100%; /* Limita a largura total do formulário */
+        margin: 0 auto; /* Centraliza o formulário */
+    }
+    #formularioContato input[type="text"] {
+        width: 100%; /* Faz o campo ocupar a largura do formulário */
+        padding: 8px; /* Diminui o padding para economizar espaço */
+        font-size: 14px; /* Diminui o tamanho da fonte */
+    }
+    
+    #formularioContato button {
+        width: 100%; /* Faz o botão ocupar a largura do formulário */
+        padding: 8px; /* Diminui o padding */
+        font-size: 14px; /* Reduz o tamanho da fonte do botão */
+        margin-top: 10px; /* Ajusta o espaçamento superior do botão */
+    }
+    }
+
