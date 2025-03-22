@@ -131,28 +131,28 @@ video {
 
 @media (max-width: 600px) {
     .video-container {
-        width: 50%; /* O vídeo ocupa 50% da largura da tela em telas pequenas */
+        width: 100%; /* O vídeo ocupa 50% da largura da tela em telas pequenas */
         margin: 0 auto; /* Centraliza o vídeo */
     }
 }
 
 @media (max-width: 400px) {
     .video-container {
-        width: 40%; /* O vídeo ocupa 40% da largura da tela */
+        width: 100%; /* O vídeo ocupa 40% da largura da tela */
         margin: 0 auto; /* Centraliza o vídeo */
     }
 }
 
 @media (max-width: 320px) {
     .video-container {
-        width: 30%; /* O vídeo ocupa 30% da largura da tela */
+        width: 100%; /* O vídeo ocupa 30% da largura da tela */
         margin: 0 auto; /* Centraliza o vídeo */
     }
 }
 
 @media (max-width: 200px) {
     .video-container {
-        width: 30%; /* O vídeo ocupa 30% da largura da tela em dispositivos muito pequenos */
+        width: 100%; /* O vídeo ocupa 30% da largura da tela em dispositivos muito pequenos */
         margin: 0 auto; /* Centraliza o vídeo */
     }
 }
