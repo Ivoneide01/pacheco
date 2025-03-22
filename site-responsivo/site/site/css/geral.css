@@ -114,6 +114,14 @@ main {
 [data-semana].aberto::after {
     background: #3F4;
 }
+/* Centraliza o vídeo dentro da seção */
+.video-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+}
 
 html,
 body {
