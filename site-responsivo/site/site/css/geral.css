@@ -128,6 +128,30 @@ main {
             width: auto;
         }
     }
+@media (max-width: 600px) {
+    .video-container {
+        width: 50%;
+    }
+}
+
+@media (max-width: 400px) {
+    .video-container {
+        width: 40%;
+    }
+}
+
+@media (max-width: 320px) {
+    .video-container {
+        width: 30%;
+    }
+}
+
+@media (max-width: 200px) {
+    .video-container {
+        width: 30%;
+    }
+}
+
 
 html,
 body {
