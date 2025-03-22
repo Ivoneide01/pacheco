@@ -121,29 +121,31 @@ main {
         align-items: center;
         width: 100%;
         height: auto;
+        max-width: 100%; /* Impede que ultrapasse a largura da tela */
+        margin: 0 auto; /* Centraliza o vídeo */
 }
  @media (max-width: 600px) {
         .video-container{
             width: 50%;
-            width: auto;
+            margin: 0 auto; /* Centraliza o vídeo */
         }
     }
     @media (max-width: 400px) {
         .video-container{
-            width: 40%;
-            width: auto;
+            width: 40%
+            margin: 0 auto; /* Centraliza o vídeo */
         }
     }
     @media (max-width: 320px) {
         .video-container{
             width: 30%;
-            width: auto;
+            margin: 0 auto; /* Centraliza o vídeo */
         }
     }
     @media (max-width: 200px) {
         .video-container{
             width: 30%;
-            width: auto;
+            margin: 0 auto; /* Centraliza o vídeo */
         }
     }
 
