@@ -122,35 +122,30 @@ main {
         width: 100%;
         height: auto;
 }
-    @media (max-width: 600px) {
+ @media (max-width: 600px) {
         .video-container{
-            width: 70%;
+            width: 50%;
             width: auto;
         }
     }
-@media (max-width: 600px) {
-    .video-container {
-        width: 50%;
+    @media (max-width: 400px) {
+        .video-container{
+            width: 40%;
+            width: auto;
+        }
     }
-}
-
-@media (max-width: 400px) {
-    .video-container {
-        width: 40%;
+    @media (max-width: 320px) {
+        .video-container{
+            width: 30%;
+            width: auto;
+        }
     }
-}
-
-@media (max-width: 320px) {
-    .video-container {
-        width: 30%;
+    @media (max-width: 200px) {
+        .video-container{
+            width: 30%;
+            width: auto;
+        }
     }
-}
-
-@media (max-width: 200px) {
-    .video-container {
-        width: 30%;
-    }
-}
 
 
 html,
