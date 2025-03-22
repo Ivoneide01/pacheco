@@ -114,40 +114,49 @@ main {
 [data-semana].aberto::after {
     background: #3F4;
 }
-/* Centraliza o vídeo dentro da seção */
 .video-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        height: auto;
-        max-width: 100%; /* Impede que ultrapasse a largura da tela */
-        margin: 0 auto; /* Centraliza o vídeo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    max-width: 100%; /* Impede que ultrapasse a largura da tela */
+    margin: 0 auto; /* Centraliza o vídeo */
 }
- @media (max-width: 600px) {
-        .video-container{
-            width: 50%;
-            margin: 0 auto; /* Centraliza o vídeo */
-        }
+
+video {
+    width: 100%; /* Garante que o vídeo ocupe a largura total do contêiner */
+    height: auto; /* Mantém a proporção do vídeo */
+}
+
+@media (max-width: 600px) {
+    .video-container {
+        width: 50%; /* O vídeo ocupa 50% da largura da tela em telas pequenas */
+        margin: 0 auto; /* Centraliza o vídeo */
     }
-    @media (max-width: 400px) {
-        .video-container{
-            width: 40%
-            margin: 0 auto; /* Centraliza o vídeo */
-        }
+}
+
+@media (max-width: 400px) {
+    .video-container {
+        width: 40%; /* O vídeo ocupa 40% da largura da tela */
+        margin: 0 auto; /* Centraliza o vídeo */
     }
-    @media (max-width: 320px) {
-        .video-container{
-            width: 30%;
-            margin: 0 auto; /* Centraliza o vídeo */
-        }
+}
+
+@media (max-width: 320px) {
+    .video-container {
+        width: 30%; /* O vídeo ocupa 30% da largura da tela */
+        margin: 0 auto; /* Centraliza o vídeo */
     }
-    @media (max-width: 200px) {
-        .video-container{
-            width: 30%;
-            margin: 0 auto; /* Centraliza o vídeo */
-        }
+}
+
+@media (max-width: 200px) {
+    .video-container {
+        width: 30%; /* O vídeo ocupa 30% da largura da tela em dispositivos muito pequenos */
+        margin: 0 auto; /* Centraliza o vídeo */
     }
+}
+
 
 
 html,
