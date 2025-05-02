@@ -1,0 +1,556 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    overflow-x: hidden;
+
+
+}
+@media (max-width: 768px) {
+    div {
+      overflow-x: hidden;
+    }
+  }
+  @media (max-width: 500px) {
+    div {
+      overflow-x: hidden;
+    }
+  }
+
+
+.topo{
+    height: 30px; /* altura*/
+    background-color: #000000;   /* cor do topo*/
+}
+.topoDois{
+    width: 100%;   /* largura*/
+    max-width: 1040px;  /* a largura maxima desse vai ser 1040*/
+    height: 30px;
+    margin: auto;  /*  para ficar mo meio do primeiro topo*/
+} 
+.topoleft{
+    width: 50%;
+    height: 30px;
+    float:left ; /* esta alinhando a esquerda*/
+}
+.toporigth{
+    width: 50%;
+    height: 28px;
+    float:right ; 
+    text-align: right;
+    margin-top: 2px;
+
+
+}
+
+.topoleft ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;  /* removendo style de lista*/
+}
+.topoleft li {
+    float: left; /* colocar o home/ quem somos do lado do outro*/
+    height: 30px;
+    line-height: 30px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.topoleft li a {
+    text-decoration: none;
+    color: white;
+
+}
+.topoleft li .ativo {
+    color: rgb(255, 255, 0); /* style navegação topo */
+}
+.toporigth img{
+    border: 0;
+    width: 26px;
+    height: 26px;
+
+}
+.toporigth image{
+    border: 0;
+    width: 26px;
+    height: 26px;
+
+
+}
+
+.toporigth text{
+    border: 0;
+    width: 26px;
+    height: 26px;
+}
+.topobusca{
+    width: 110px;
+    height: 20px;
+    outline: 0;
+
+}
+
+.toporigth a {
+    float: right;
+}
+.toporigth input {
+    float: right;
+}
+.toporigth img  {
+    margin-right: 3px; /* daando espaço para os icones*/
+}
+
+.topo2{
+    height: 100px; /* altura*/   /* cor do topo*/
+    color: #000000;
+}
+.topoDoisint{
+    width: 100%;   /* largura*/
+    max-width: 1040px;  /* a largura maxima desse vai ser 1040*/
+    height: 95px;
+    margin: auto;  /*  */
+    background-color: white
+} 
+.logo{
+    width: 230px;    /* responsivo para o celular */
+    height: 95px;
+    float: left;
+}
+.topo2 .baner{  /* topo chamado publicidade*/
+    width: 650px;    /* responsivo para o celular */
+    height: 85px;
+    float: right;
+    margin-top: 5px;
+    background-color: rgb(239, 238, 233);
+    
+    
+
+}.topo2 .logo img{
+    border: 0;
+    width: 100px;
+}
+.topoDoisint .nome{
+    padding-left: 8px;
+    padding-right: 8px;
+
+}
+.topoDoisint p {
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 300%;
+    color: white;
+
+}
+.menu{
+    height: 40px;
+    background-color: white;
+
+}
+.menuint{
+    width: 100%;
+    max-width: 1040px;
+    height: 40px;
+    margin: auto;
+    background-color: #383737;
+
+}
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu li {
+    line-height: 40px;  /* altura da linha */
+    float: left;  /* um do lado do outro*/
+    padding-left: 8px;
+    padding-right: 8px;
+    height: 40px;
+}
+.menu a {
+    color: white;
+    text-decoration: none;  /* para retirar o stylo de ul */
+}
+.menu li:hover .submenu {  /* quando passar o mouser ele abre */
+    display: block;
+
+}
+.submenu{
+    width: 150px;
+    background-color:rgb(197, 207, 88);
+    position: absolute;
+    display: none; 
+}
+.menu img {
+    border: 0;
+    width: 13%;
+}
+.submenuItem{
+    width: 150PX;
+    line-height: 30PX;
+    padding-left: 10px;
+    height: 30px;
+}
+.submenuItem:hover{
+    background-color:rgb(6, 6, 8);
+}
+.ultimasnoticias{
+    height: 40px;
+    background-color:white;
+    
+}
+.ultimasnoticiasint{
+    width: 100%;
+    max-width: 1040px;
+    margin:auto;
+    height: 40px;
+    background-color:white;
+}
+.ultimasnoticiasarea{
+    height: 28px;
+    border: 1px solid #000000;
+    margin-top: 10px;
+    background-color:white;
+}
+.ultimasnoticiastitulo{
+    background-color:rgb(6, 6, 8);
+    color: #FFF;
+    height: 28PX;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+    line-height: 28px;
+}
+.ultimasnoticiastituloDois{
+    height: 28px;
+    line-height: 28px;
+    display: inline-block;
+    padding-left: 10px;
+    color: #000000;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.containerint{
+    width: 100%;
+    max-width: 1040px;
+    margin:auto;
+
+}
+.leftside{
+    width: 753px;
+    float: left;
+  
+    
+}
+.rightside{
+    width: 275px;
+    min-height: 200px;
+    float: right;
+    background-color:white;
+    margin-left: 12px; 
+}
+.widget{
+    background-color: #cec9c6;
+    margin-bottom: 10px; /* espaçamento entre os quadrados  */
+}       
+.widget_titulo{
+    height: 30px;
+    line-height: 30px;
+    padding-left: 5px;
+    font-size: 14px; /* tamanha do letra */
+    border-bottom: 1px solid #CCC; /* espaçamento entre o titulo e o quadrado */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.widget_conteudo{
+    text-align: center;/* alinhar as redes sociais ao meio */
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.widget .widget_titulo img{
+    border: 0;
+    width: 275px;
+}
+.img_conteudo{
+    width: 250px;
+    height: 200px;
+}
+.noticioa_item{
+    font-size: 14px;
+    margin: 0px 10px;
+    text-align: left;
+    padding: 10px 0px;
+    border-bottom: 1px solid #CCC;
+}
+.noticioa_item a {
+    text-decoration: none;
+    color: #000;  /*  deixar os links sem formatação  */
+}
+.slideshow{
+    height: 335px;
+    overflow: hidden; /* scroll se passar da area vai ser feito uma mudança, overflow: hidden;  qualquer coisa que saia da area vai ser cortada */
+}
+.slideshowarea{
+    height: 335px;
+    width: 100000px;
+    transition: all 1s;
+    
+}
+.slide{
+    height: 355px;
+    width: 753px;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.slideinfo{
+    height: 70px; /*  imagem repetida para o titulo */
+    background-size: auto 70px; 
+    margin-top: 265px;
+    background-image:url('/assets/img/ban.jpg')
+    
+    
+}
+.slideinfo_titulo{
+    font-size: 20px;
+    color: rgb(6, 6, 6);
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.slideinfo_subtitulo{
+    font-size: 13px;
+    color: rgb(25, 23, 23);
+    padding-left: 20px;
+}
+.bolinhasslide{
+    position: absolute;
+    width: 200px;
+    height: 20px;
+}
+.bolinha{
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-right: 5px;
+    cursor: pointer;
+    background-color: #CCC;
+    border-radius: 10px;
+}
+.topoDoisint img{
+   padding-top: 5px;
+
+}
+
+/*WHATSAPP*/
+
+.whatsapp-ico {
+    fill: white;
+    width: 70px;
+    height: 70px;
+    padding: 3px;
+    background: linear-gradient(90deg, #4bd415, #126607);
+    border-radius: 50%;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+    /* box-shadow: 2px 2px 11px rgba(0,0,0,0.7); */
+    bottom: 20px;
+    right: 20px;
+    z-index: 10;
+    float: right;
+    position: fixed;
+}
+
+.whatsapp-ico:hover {
+    box-shadow: 0px 5px 50px 0px #17f117 inset, 0px 5px 50px 0px #f6f4f5, 0px 5px 50px 0px #040303 inset, 0px 5px 50px 0px #4ad712;
+}
+
+.orcamento{
+    display: flex; /* coloca as imagens uma ao lado da outra */
+    float: left;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px 10px;
+}
+
+.wp-block-column a {
+    color: black;
+    max-width: auto;
+    
+}
+@media (max-width: 400px) {
+    .orcamento{
+        flex-direction: column;
+    }
+    .widget_conteudo{
+        flex-direction: column;
+
+    }
+    
+}
+@media (max-width: 820px) {
+    .orcamento{
+        flex-direction: column;
+    }
+}
+
+/* responsividade para ipad air */
+@media (max-width: 820px){
+    .widget {
+        display: none;
+        height: 2px;
+        width: 2px;
+
+
+    }
+}
+
+@media (max-width: 820px){
+    .rightside {
+        display: none;
+    }
+}
+@media (max-width: 820px){
+    .slideshow {
+        margin-left: 10%;
+       
+
+    }
+}
+
+@media (max-width: 820px){
+    .menuint {
+        display: none;
+
+    }
+    .ultimasnoticias{
+        display: none;
+    }
+    .topo2 .baner{
+        width: 820px;
+        float: none;
+
+        
+    }
+}
+
+/* responsividade para Nest hub  */
+@media (max-width: 1024px){
+
+    .rightside{
+        display: none;
+    }
+    .orcamento{
+        display: inline-block;
+    }
+    .slideshow{
+        height: 355px;
+        width: 100%;
+        margin: 50px;
+    }
+    .img_conteudo{
+        display: none;
+    }
+    .widget_titulo{
+        display: none;
+    }
+    .widget_conteudo{
+        padding: 0%;
+    }
+    
+}
+@media (max-width: 412px) {
+    .slideshow{
+        height: 400px;
+        width: 400px;
+        margin: 0;
+    }
+}
+@media (max-width: 412px) {
+    .slideshow{
+        height: 400px;
+        width: 400px;
+        margin: 0;
+    }
+}
+@media (max-width: 280px) {
+    .slideshow{
+        height: 280px;
+        width: 280px;
+        margin: 0;
+    }
+    .slideshow .slide {
+        height: 280px;
+        width: 280px;
+    }
+    .topo2 .logo img{
+        height: 50px;
+        width: 50px;
+        
+    }
+    .topobusca {
+        display: none;
+    }
+
+    .menu{
+        display: none;
+    }
+    .orcamento{
+        padding-block: 0;
+        margin-left: 0%;
+    }
+}
+
+@media (max-width: 280px){
+    .topoleft {
+        display:none;
+    }
+    .topoDois{
+        display: none;
+    }
+
+    .slideshow{
+        height: 250px;
+        width: 232px;
+    }
+    .whatsapp-ico{
+        height: 30px;
+        width: 30px;
+    }
+    .bolinhasslide{
+        height: 2px;
+        width: 2px;
+    }
+    .orcamento img{
+        display: none;
+    }
+    .topo2 .baner{
+        display: none;
+        
+    }
+    .topo{
+        display: none;
+    }
+    .bolinha{
+        height: 10px;
+        width: 10px;
+    }
+    @media (max-width: 540px){
+        .slideshowarea {
+            width: 300px;
+            
+           
+    
+        }
+    }
+
+      
+      
+}
+
+
+
+
+
+
+
+
+
+

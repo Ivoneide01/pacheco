@@ -1,0 +1,40 @@
+.menu-bar__container{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    z-index: 999;
+    background-color: #938e8e;
+    width: 100%;
+    height: 40px;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0.5);
+}
+.menu-bar__logo{
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-bar__item{
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+.menu-bar__item >ul{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+}
+.menu-bar__item >ul >li{
+    border: 1px solid rgb(166, 16, 16);
+    padding: 5px;
+    margin-right: 15px;
+    
+}
+.menu-bar__item >ul >li >a{
+    text-decoration: none;
+    color: rgba(1,7,7);
+    font-family: 'Segoe UI',;
+}
+.menu-bar__item >ul >li >a:hover{
+    color: blue;
+}

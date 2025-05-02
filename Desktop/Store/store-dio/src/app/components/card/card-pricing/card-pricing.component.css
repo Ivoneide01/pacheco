@@ -1,0 +1,30 @@
+.menu-princing__container{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 70px;
+    background-color: rgba(red, green, blue, alpha);
+    color: antiquewhite;
+    font-family: Cambria;
+}
+.card-princing__title{
+    margin-bottom: 9px;
+}
+.card-princing__value{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.card-princing__value__console{
+    display: flex;
+    flex-direction: row;
+
+.card-princing__value__console >span{
+    font-weight: bolder;
+    color: aqua;
+    margin-right: 10px ;
+}
+}
